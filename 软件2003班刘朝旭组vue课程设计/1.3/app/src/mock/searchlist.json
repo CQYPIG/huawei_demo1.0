@@ -1,0 +1,33 @@
+{
+    "code": 200,
+    "message": "成功",
+    "data": {
+        "trademarkList": [
+            {
+                "tmId": 1,
+                "tmName": "苹果"
+            }
+        ],
+        "attrsList": [
+            {
+                "attrId": 1,
+                "attrValueList": [
+                    "4500-11999",
+                    "2800-4499"
+                ],
+                "attrName": "价格"
+            }
+        ],
+        "goodsList": [
+            {
+                "id": 2,
+                "title": "早教故事机",
+                "productinformation": "火火兔智能早教故事机",
+                "imgUrl": "/images/shouji.png",
+                "price": 5499,
+                "nowprice": "200"
+            }
+        ]
+    },
+    "ok": true
+}

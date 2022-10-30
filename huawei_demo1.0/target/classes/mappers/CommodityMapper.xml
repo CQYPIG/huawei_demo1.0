@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--创建的映射文件文件名与对应的接口的全类名对应-->
+<mapper namespace="com.cz.huawei_demo.dao.CommodityMapper">
+    <cache type="org.mybatis.caches.redis.RedisCache" />
+    <!--Commodity getCommodityById(@Param("id")String id);-->
+    <select id="getCommodityById" resultType="commodity">
+        select * from commodity where id = #{id}
+    </select>
+    
+    <!--@Select("select * from commodity where is_seckill = true limit 3")
+    List<Commodity> getSeckillCommodity();-->
+    <select id="getSeckillCommodity" resultType="commodity">
+        select * from commodity where is_seckill = true limit 3
+    </select>
+
+    <!--int addOrderCommodityOfShopCar(ShopCarCommodity shopCarCommodity);-->
+<!--    <insert id="addOrderCommodityOfShopCar" parameterType="orderCommodity">-->
+<!--        insert into orders_commodity-->
+<!--        value (null,#{})-->
+<!--    </insert>-->
+</mapper>

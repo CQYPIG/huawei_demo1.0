@@ -1,0 +1,32 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: huawei_demo
+  # 设置数据库连接解基本信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/huawei
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 124.222.215.244
+    port: 6379
+#    lettuce:
+#      pool:
+#        max-idle: 30
+#        max-active: 8
+#        max-wait: 10000
+#        min-idle: 10
+
+
+mybatis:
+  configuration:
+    # 开启数据库和java命名规范自动转换
+    map-underscore-to-camel-case: true
+  # 设置自动设置别名的实体类的位置
+  type-aliases-package: com.cz.huawei_demo.entity
+  # 设置mapper映射文件的位置
+  mapper-locations: classpath:mappers/*.xml
+

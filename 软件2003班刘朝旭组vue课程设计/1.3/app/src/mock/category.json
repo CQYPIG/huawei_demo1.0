@@ -1,0 +1,609 @@
+[
+    {
+        "categoryChild": [
+            {
+                "categoryName": "Mate系列",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "P系列",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "nova系列",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "畅享系列",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "华为认证二手机",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/shouji.png",
+                "categoryId": 6
+            }
+        ],
+        "categoryName": "手机",
+        "categoryId": 1
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "MateBook X系列",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "MateBook系列",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "MateBook D系列",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "MateBook E系列",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "商用电脑",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "显示器",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "台式机",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "打印机",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 8
+            },
+            {
+                "categoryName": "配件",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 9
+            },
+            {
+                "categoryName": "电脑包",
+                "imgUrl": "/images/diannao.webp",
+                "categoryId": 10
+            }
+        ],
+        "categoryName": "电脑",
+        "categoryId": 2
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "MatePad Pro系列",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "MatePad系列",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "墨水屏板",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "MateBook E系列",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "M系列和畅享平板",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "商用平板",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "配件",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/pingban.webp",
+                "categoryId": 8
+            }
+        ],
+        "categoryName": "平板",
+        "categoryId": 3
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "智慧屏V Pro",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "智慧屏V系列",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "华为智慧屏 SE MEMC",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "华为智慧屏 SE",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "学习智慧屏",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "商用智慧屏",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "配件",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "办公协作大屏",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 8
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/zhihuiping.webp",
+                "categoryId": 9
+            }
+        ],
+        "categoryName": "智慧屏",
+        "categoryId": 4
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "智慧科技",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "经典全能",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "专业极致",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "时尚潮流",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "健康守护",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "配件",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/shoubiao.webp",
+                "categoryId": 7
+            }
+        ],
+        "categoryName": "穿戴",
+        "categoryId": 5
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "真无线耳机",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "有线耳机",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "智能眼镜",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "劲挂式耳机",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "蓝牙音箱",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "智能音箱",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/erji.webp",
+                "categoryId": 7
+            }
+        ],
+        "categoryName": "耳机音箱",
+        "categoryId": 6
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "华为智能门锁",
+                "imgUrl": "/images/mensuo.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "精品路由",
+                "imgUrl": "/images/mensuo.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "移动路由",
+                "imgUrl": "/images/mensuo.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "全屋WiFi",
+                "imgUrl": "/images/mensuo.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/mensuo.webp",
+                "categoryId": 5
+            }
+        ],
+        "categoryName": "门锁路由",
+        "categoryId": 7
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "充电器&线材",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "移动电源",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "自拍杆&支架",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "摄像机&镜头",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "保护壳",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "保护套",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "贴膜",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "个人电脑配件",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 8
+            },
+            {
+                "categoryName": "电脑包",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 9
+            },
+            {
+                "categoryName": "平板配件",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 10
+            },
+            {
+                "categoryName": "智慧屏配件",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 11
+            },
+            {
+                "categoryName": "穿戴配件",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 12
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/peijian.webp",
+                "categoryId": 13
+            }
+        ],
+        "categoryName": "配件",
+        "categoryId": 8
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "运动健身",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "健身保健",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "个护美妆",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "指南家装",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "影音娱乐",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "户外出行",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "数码周边",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/yundong.png",
+                "categoryId": 8
+            }
+        ],
+        "categoryName": "生态产品",
+        "categoryId": 9
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "扫地清洁",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "空气净化器",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "厨电卫浴",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "净水器&热水器",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "智能门锁",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "摄像头安防",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "加湿器&除湿&取暖",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "精选水杯",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 8
+            },
+            {
+                "categoryName": "台灯&落地灯",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 9
+            },
+            {
+                "categoryName": "灯饰照明",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 10
+            },
+            {
+                "categoryName": "晾衣架&床&窗帘",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 11
+            },
+            {
+                "categoryName": "插座&开关",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 12
+            },
+            {
+                "categoryName": "电风扇",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 13
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/zhinengjiaju.webp",
+                "categoryId": 14
+            }
+        ],
+        "categoryName": "家用电器",
+        "categoryId": 10
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "甄选美酒",
+                "imgUrl": "/images/jiu.webp",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "严选良食",
+                "imgUrl": "/images/jiu.webp",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "进口生鲜",
+                "imgUrl": "/images/jiu.webp",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "精选好物",
+                "imgUrl": "/images/jiu.webp",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "查看全部",
+                "imgUrl": "/images/jiu.webp",
+                "categoryId": 5
+            }
+        ],
+        "categoryName": "美食酒饮",
+        "categoryId": 11
+    },
+    {
+        "categoryChild": [
+            {
+                "categoryName": "华为视频卡",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 1
+            },
+            {
+                "categoryName": "花币卡",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 2
+            },
+            {
+                "categoryName": "手机延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 3
+            },
+            {
+                "categoryName": "平板延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 4
+            },
+            {
+                "categoryName": "笔记本延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 5
+            },
+            {
+                "categoryName": "穿戴延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 6
+            },
+            {
+                "categoryName": "音频延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 7
+            },
+            {
+                "categoryName": "智慧屏全质保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 8
+            },
+            {
+                "categoryName": "门锁延保",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 9
+            },
+            {
+                "categoryName": "焕新服务",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 10
+            },
+            {
+                "categoryName": "惠修服务",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 11
+            },
+            {
+                "categoryName": "商用安防",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 12
+            },
+            {
+                "categoryName": "UPS电源",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 13
+            },
+            {
+                "categoryName": "会议大屏",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 14
+            },
+            {
+                "categoryName": "网络设备",
+                "imgUrl": "/images/kapian.png",
+                "categoryId": 15
+            }
+        ],
+        "categoryName": "增值业务/企业商用",
+        "categoryId": 12
+    }
+]

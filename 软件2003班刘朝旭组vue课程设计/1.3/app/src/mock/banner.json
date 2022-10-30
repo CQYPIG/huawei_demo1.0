@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "/images/ci1.webp"
+    },
+    {
+        "id": "2",
+        "imgUrl": "/images/ci2.webp"
+    },
+    {
+        "id": "3",
+        "imgUrl": "/images/ci3.webp"
+    },
+    {
+        "id": "4",
+        "imgUrl": "/images/ci4.webp"
+    },
+    {
+        "id": "5",
+        "imgUrl": "/images/ci5.webp"
+    },
+    {
+        "id": "6",
+        "imgUrl": "/images/ci6.webp"
+    },
+    {
+        "id": "7",
+        "imgUrl": "/images/ci7.webp"
+    },
+    {
+        "id": "8",
+        "imgUrl": "/images/ci8.webp"
+    }
+]

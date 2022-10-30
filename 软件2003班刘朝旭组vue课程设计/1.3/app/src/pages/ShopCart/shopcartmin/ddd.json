@@ -1,0 +1,38 @@
+{
+    "id": "101",
+    "name": "[新品] HUAWEI FreeBuds Lipstick 有线充版（密语",
+    "unitPrice": 1288,
+    "number": 1,
+    "imgURL": "/images/xpimgs/big口红1.png",
+    "logistics": "物流信息",
+    "aftBaoPrice": 0,
+    "done": false,
+    "dfk": true,
+    "dsh": false,
+    "dpj": false,
+    "yx": true,
+    "imgurls": [
+        {
+            "id": 1,
+            "imgURL": "/images/xpimgs/big口红1.png"
+        },
+        {
+            "id": 2,
+            "imgURL": "/images/xpimgs/big口红2.png"
+        },
+        {
+            "id": 3,
+            "imgURL": "/images/xpimgs/big口红6.png"
+        },
+        {
+            "id": 4,
+            "imgURL": "/images/xpimgs/big口红4.png"
+        },
+        {
+            "id": 5,
+            "imgURL": "/images/xpimgs/big口红5.png"
+        }
+    ],
+    "body": "[价保618 抢先购买] 1现时直降300元 2享6期免息",
+    "oldPrice": 1499
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--创建的映射文件文件名与对应的接口的全类名对应-->
+<mapper namespace="com.cz.huawei_demo.dao.ShopCarMapper">
+    <!--
+    /*根据用户id获取自己的购物车商品*/
+    @Select("select * from shop_car where user_id = #{userId}")
+    List<ShopCarCommodity> getAllSCCommodity(@Param("userId")String UserId);
+    -->
+    <select id="getAllSCCommodity" parameterType="string" resultMap="getAllSCCommodityMap">
+<!--    <select id="getAllSCCommodity" resultType="shopCarCommodity">-->
+        select * from shop_car
+        inner join commodity
+        on shop_car.sc_commodity_id = commodity.id
+        where shop_car.user_id = #{userId}
+    </select>
+    <resultMap id="getAllSCCommodityMap" type="shopCarCommodity">
+        <id property="shopCarId" column="shop_car_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="scCommodityId" column="sc_commodity_id"/>
+        <result property="scCommodityPrice" column="sc_commodity_price"/>
+        <result property="scCommodityNumber" column="sc_commodity_number"/>
+        <result property="scCommodityOptions" column="sc_commodity_options"/>
+        <result property="scCommodityImg" column="sc_commodity_img"/>
+        <association property="commodity" select="getCommodityById" column="sc_commodity_id" javaType="commodity">
+        </association>
+    </resultMap>
+
+    <select id="getCommodityById" resultType="commodity">
+        select * from commodity where id = #{id}
+    </select>
+</mapper>

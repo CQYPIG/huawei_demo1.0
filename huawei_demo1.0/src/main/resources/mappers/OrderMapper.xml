@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--创建的映射文件文件名与对应的接口的全类名对应-->
+<mapper namespace="com.cz.huawei_demo.dao.OrderMapper">
+    <cache type="org.mybatis.caches.redis.RedisCache" />
+    <!--int addOrder(Order order);-->
+    <insert id="addOrder" parameterType="Order" useGeneratedKeys="true" keyProperty="orderId" keyColumn="order_id">
+        insert into orders value(null,#{userId},#{orderPrice},#{orderTime},#{yx},#{dfk},#{dsh})
+    </insert>
+
+
+
+
+
+    <!--根据用户id查询出所有订单-->
+    <!--List<Order> getOrderByUserId(@Param("userId")String userId);-->
+    <select id="getOrderByUserId" resultMap="getOrderByUserIdMap">
+        select * from orders
+        inner join orders_commodity
+        on orders.order_id = orders_commodity.belong_order_id
+        inner join commodity
+        on commodity.id = orders_commodity.commodity_id
+        where orders.user_id = #{userId}
+    </select>
+    <resultMap id="getOrderByUserIdMap" type="order">
+        <id column="order_id" property="orderId"/>
+        <result column="order_price" property="orderPrice"/>
+        <result column="order_time" property="orderTime"/>
+        <result column="yx" property="yx"/>
+        <result column="dfk" property="dfk"/>
+        <result column="dsh" property="dsh"/>
+
+        <!--一条订单下的多条数据-->
+        <collection property="commodityList" ofType="commodity" resultMap="commodityListResultMap">
+            <!--id要放在这里处理，否则只能查询出一条数据-->
+            <id property="id" column="commodity_id"/>
+            <!--其他的字段的查询必须放在resultMap中否则也只能查出一条数据-->
+        </collection>
+    </resultMap>
+    <resultMap id="commodityListResultMap" type="commodity">
+        <result property="repertory" column="commodity_number"/>
+        <result property="describe" column="commodity_options"/>
+        <result property="commodityName" column="commodity_name"/>
+        <result property="imgUrl" column="commodity_img"/>
+        <result property="price" column="commodity_price"/>
+        <result property="nowPrice" column="nowPrice"/>
+    </resultMap>
+
+
+
+</mapper>

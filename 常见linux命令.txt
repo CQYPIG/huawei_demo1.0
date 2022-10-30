@@ -1,0 +1,22 @@
+查看centos防火墙状态
+systemctl status firewalld
+开启命令：systemctl start firewalld
+临时关闭命令：systemctl stop firewalld
+永久关闭命令：systemctl disable firewalld
+
+查看放行端口
+firewall-cmd --list-ports  
+放行端口
+firewall-cmd --zone=public --add-port=80/tcp --permanent  
+
+–zone  #作用域
+–add-port=80/tcp  #添加端口，格式为：端口/通讯协议
+–permanent  #永久生效，没有此参数重启后失效
+
+#Linux代码  
+#重启firewall  
+firewall-cmd --reload  
+#停止firewall  
+systemctl stop firewalld.service  
+#禁止firewall开机启动  
+systemctl disable firewalld.service   

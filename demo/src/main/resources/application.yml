@@ -1,0 +1,17 @@
+server:
+  port: 8181
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/huawei?serverTimezone=UTC
+  redis:
+    host: 43.143.129.41
+    password: cz1234
+    port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:dao/*.xml
